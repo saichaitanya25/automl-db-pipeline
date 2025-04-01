@@ -1,0 +1,33 @@
+{
+    "fields": [
+        {
+            "name": "feature1",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "feature2",
+            "type": "double",
+            "nullable": true
+        },
+        {
+            "name": "feature3",
+            "type": "string",
+            "nullable": true
+        },
+        {
+            "name": "feature4",
+            "type": "integer",
+            "nullable": true
+        },
+        {
+            "name": "target",
+            "type": "integer",
+            "nullable": true
+        }
+    ],
+    "primaryKey": [
+        "target"
+    ],
+    "type": "struct"
+}
