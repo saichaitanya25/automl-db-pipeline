@@ -1,0 +1,18 @@
+{
+    "data": {
+        "input_path": "/mnt/raw/input.csv",
+        "delta_path": "/mnt/delta/training_data",
+        "test_data_path": "/mnt/delta/test_data",
+        "prediction_output_path": "/mnt/delta/predictions"
+    },
+    "automl": {
+        "target_col": "target",
+        "timeout_minutes": 15,
+        "primary_metric": "accuracy",
+        "task": "classification"
+    },
+    "mlflow": {
+        "model_name": "AutoML_Best_Model",
+        "register_stage": "pp"
+    }
+}
